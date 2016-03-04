@@ -1,3 +1,6 @@
+var insects = function (bug) {
+
+}
 // Create your variable here, name it `insects`
 
 
