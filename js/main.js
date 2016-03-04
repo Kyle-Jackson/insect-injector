@@ -1,8 +1,47 @@
-var insects = function (bug) {
+var insects = [{
+  name: 'Ant Nest Beetle',
+  family: 'Carabidae',
+  size: [6, 20],
+  food: {
+    eatsInsects: true,
+    eatsDung: false,
+    eatsPlants: false,
+  },
+  img: 'ant-nest-beetle.jpg'
+}, {
+  name: 'Dung Beetle',
+  family: 'Scarabidae',
+  size: [20, 30],
+  food: {
+    eatsInsects: false,
+    eatsDung: true,
+    eatsPlants: false,
+  },
+  img: 'dung-beetle.jpg'
+}, {
+  name: 'Stag Beetle',
+  family: 'Lucanidae',
+  size: [5, 120],
+  food: {
+    eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true,
+  },
+  img: 'stag-beetle.jpg'
+}, {
+  name: 'Tortoise Beetle',
+  family: 'Cassidinae',
+  size: [1, 18],
+  food: {
+    eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true,
+  },
+  img: 'tortoise-beetle.jpg'
+},
+];
 
-}
 // Create your variable here, name it `insects`
-
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
